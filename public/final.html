@@ -17,7 +17,8 @@
                 </ul>
             </div>
             <ul id="section-list">
-                
+                <li data-sec="#overview-section">Video Presentation</li>
+                <li data-sec="#video-section">Video Presentation</li>
             </ul>
             <div id="sidebar-footer">
                 <center style="padding: 10px;">
@@ -31,7 +32,30 @@
             <section id="overview-section">
                 <div>
                     <p>
-                        In Progress
+                        In this Neon Ping Pong Project, we implemented various aspect of ping pong playing.
+                        We have the basic physics: the ping pong ball can bounce around the walls, being hit
+                        by the racket which is following the players' movement.
+                        We have self designed game interface, user interactions and environment. All of the 
+                        models we are using are modelled by ourselves. We've also created various shaders
+                        to make the room more perceivable: We gave distinct color to each player, another
+                        distinct color for the ball and a indicator for its movements. We have letters 
+                        floating around the scene so that the players can know the current status and scores.
+                        We have a fully enabled p2p rpc server which can sync up the state between two 
+                        computers. All of the physics calculation is on the RPC server.
+                        To improve the gaming experience, we've also enabled the Bullet Time special ability
+                        for the user. With this ability, the player can trigger their own bullet time to 
+                        increase the chance hitting the ball.
+                        We have a very emersive sound system. We have self-composed sound effects for ball
+                        bouncing, hitting, scoring, time counting. We also composed a background music. In
+                        addition, when the bullet time effect is triggered, we will decrease the pitch of 
+                        the music to give a better sense for the player that the time has been slow down.
+                    </p>
+                </div>
+            </section>
+            <section id="video-section">
+                <div>
+                    <p>
+                        <iframe width="720" height="410" src="https://www.youtube.com/embed/UgECLCYevcw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </p>
                 </div>
             </section>
